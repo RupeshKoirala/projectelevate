@@ -36,7 +36,7 @@ const slides = [
 export function WorkflowCarousel() {
   const [currentSlide, setCurrentSlide] = React.useState(0)
   const [isPlaying, setIsPlaying] = React.useState(true)
-  const timerRef = React.useRef<NodeJS.Timeout>()
+  const timerRef = React.useRef<number | null>(null)
 
   const goToNext = React.useCallback(() => {
     setCurrentSlide((current) => (current + 1) % slides.length)
@@ -48,11 +48,11 @@ export function WorkflowCarousel() {
 
   React.useEffect(() => {
     if (isPlaying) {
-      timerRef.current = setInterval(goToNext, 5000)
+      timerRef.current = window.setInterval(goToNext, 5000)
     }
     return () => {
       if (timerRef.current) {
-        clearInterval(timerRef.current)
+        window.clearInterval(timerRef.current)
       }
     }
   }, [isPlaying, goToNext])
