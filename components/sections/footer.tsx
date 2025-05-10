@@ -39,7 +39,7 @@ export function Footer() {
                   className="hover:text-white transition-colors duration-200"
                   aria-label="Follow us on Instagram"
                 >
-                  @projectelevatellc
+                  @projectelevatebiz
                 </a>
               </li>
               <li>+1 (421) 413-1351</li>
