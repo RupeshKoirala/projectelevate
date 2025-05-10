@@ -98,9 +98,10 @@ export function WorkflowCarousel() {
               }`}
             >
               <Image
-                src={slide.image || "/placeholder.svg"}
+                src={slide.image}
                 alt={slide.alt}
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-contain"
                 priority={index === 0}
               />
