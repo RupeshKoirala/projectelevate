@@ -33,7 +33,7 @@ export function Footer() {
               <li className="flex items-center gap-2">
                 <Instagram className="h-4 w-4" />
                 <a
-                  href="https://www.instagram.com/projectelevatellc/"
+                  href="https://www.instagram.com/projectelevatebiz/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors duration-200"
