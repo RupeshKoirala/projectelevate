@@ -42,7 +42,7 @@ export function Footer() {
                   @projectelevatebiz
                 </a>
               </li>
-              <li>+1 (421) 413-1351</li>
+              <li>+1 (412) 413-1351</li>
               <li>5812 Rock Forest Ct</li>
               <li>Centreville, VA 20121</li>
             </ul>
