@@ -1,5 +1,6 @@
 import { Header } from "@/components/header"
 import { HeroSection } from "@/components/sections/hero"
+import CredlyBadges from "@/components/CredlyBadges"
 import { IntegrationsSection } from "@/components/sections/integrations"
 import { ServicesSection } from "@/components/sections/services"
 import { VisionSection } from "@/components/sections/vision"
@@ -14,6 +15,7 @@ export default function Page() {
     <main>
       <Header />
       <HeroSection />
+      <CredlyBadges />
       <IntegrationsSection />
       <ServicesSection />
       <VisionSection />
