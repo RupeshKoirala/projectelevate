@@ -28,7 +28,7 @@ export function Footer() {
             <ul className="mt-4 space-y-2 text-sm text-gray-300">
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <span>projectelevatehub@gmail.com</span>
+                <span>projectelevatebiz@gmail.com</span>
               </li>
               <li className="flex items-center gap-2">
                 <Instagram className="h-4 w-4" />
