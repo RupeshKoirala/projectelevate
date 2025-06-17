@@ -19,7 +19,7 @@ interface ContactFormProps {
 export function ContactForm({ variant = 'button' }: ContactFormProps) {
   const handleFormClick = () => {
     // Open the form in a new window/tab
-    window.open('https://tally.so/r/3NgP2Q', '_blank')
+    window.open('https://tally.so/r/m6GKkO', '_blank')
   }
 
   if (variant === 'cta') {
